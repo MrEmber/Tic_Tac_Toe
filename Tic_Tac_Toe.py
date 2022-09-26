@@ -78,7 +78,7 @@ class Game_Init:
             print("Player 1 has won")
 
         elif (tic_tac_list[0] == "O" and tic_tac_list[1] == "O" and tic_tac_list[2] == "O") or (tic_tac_list[0] == "O" and tic_tac_list[3] == "O" and tic_tac_list[6] == "O") or (tic_tac_list[2] == "O" and tic_tac_list[5] == "O" and tic_tac_list[8] == "O") or (tic_tac_list[6] == "O" and tic_tac_list[7] == "O" and tic_tac_list[8] == "O") or (tic_tac_list[0] == "O" and tic_tac_list[4] == "O" and tic_tac_list[9] == "O") or (tic_tac_list[2] == "O" and tic_tac_list[4] == "O" and tic_tac_list[6] == "O"):
-            print("Player 1 has won")
+            print("Player 2 has won")
 
         else:
             pass
@@ -176,5 +176,3 @@ class Game_Init:
                     
     win_checker(tic_tac_list)                  
         
-
-    
